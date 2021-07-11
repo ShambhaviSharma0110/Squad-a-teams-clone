@@ -1,0 +1,32 @@
+.graph-wrap{
+    padding:0.5%;
+    .btn{
+         cursor: pointer;
+            font-size: 16px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            background: none;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #885ebb;
+    }
+    .btn-home{
+        cursor: pointer;
+            font-size: 16px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            background: none;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #885ebb;
+            margin-right:40%;
+    }
+    input{
+        font-size: 16px;
+        height:40px;
+    }
+}

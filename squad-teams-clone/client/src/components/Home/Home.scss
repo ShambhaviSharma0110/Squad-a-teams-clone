@@ -1,0 +1,108 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+ 
+  .body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .left-side {
+      max-width: 500px;
+      .content {
+        h2 {
+          font-size: 40px;
+          font-weight: 400;
+          margin: 0;
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+        }
+        .action-btn {
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .btn {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            padding: 15px;
+            border: none;
+            outline: none;
+            background: none;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #885ebb;
+            .icon-block {
+              padding-right: 10px;
+            }
+            &:hover {
+              background: #b084ca;
+              text-decoration:none;
+            }
+           
+          }
+          .input-block {
+            margin-left: 20px;
+            display: flex;
+            flex: 1;
+            .input-section {
+              position: relative;
+              margin-right: 10px;
+              .icon-block {
+                position: absolute;
+                top: 50%;
+                transform: translate(10px, -50%);
+                color: #5f6368;
+              }
+              
+            }
+          }
+        }
+      }
+    }
+    .right-side {
+      .content {
+        border: 1px solid #eee;
+        font-size: 24px;
+        padding: 30px;
+        width: 100%;
+        max-width: 650px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+          0 2px 6px 2px rgba(60, 64, 67, 0.149);
+        img {
+          width: 80%;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+
+@media #{$tablet} {
+  .btn {
+    cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            padding: 5px;
+            border: none;
+            outline: none;
+            background: none;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            background-color: #885ebb;
+  }
+}
