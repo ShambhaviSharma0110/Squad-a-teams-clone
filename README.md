@@ -2,13 +2,15 @@ Welcome to the Squad-a-teams-clone wiki!
 
 # Squad is a teams clone built using Reactjs.
 
-To run the code:
-cd client
-npm start
-(for frontend)
-node server.js
-(for backend)
-for the server.js file to run make sure you open the redis server or you'll get an error.
+To run this app after downloading the zip:
+1. npm i dotenv
+2. create a .env file in app folder and type in "PORT = PORT NO." I have used 4000 in case you use a different number please specify in calling.js
+3. node server.js
+4. For the server.js file to run make sure you open the redis server or you'll get an error.
+5. cd client
+6. npm i react-scripts
+7. npm start
+8. You should see the website run on localhost:3000 on the browser
 
 ## Packages utilized:
 
