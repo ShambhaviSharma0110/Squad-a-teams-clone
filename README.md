@@ -1,5 +1,7 @@
 Welcome to the Squad-a-teams-clone wiki!
 
+![Squad-logo-3](https://user-images.githubusercontent.com/60618802/125258201-bb3ea880-e31b-11eb-9c13-e36f4dea156f.png)
+
 # Squad is a teams clone built using Reactjs.
 
 To run this app after downloading the zip:
@@ -50,6 +52,10 @@ To run this app after downloading the zip:
 > * Click on the + or the - buttons to adjust screen size and move the feature bubble by clicking and dragging it to place it around the central mind node.
 > * Lock screen to not move feature bubbles here and there
 > * Head back home button on each page will bring you back to the home page.
+
+![shambhu_squad](https://user-images.githubusercontent.com/60618802/125257463-0f955880-e31b-11eb-824c-8d30c4572b43.png)![Squad-logo-3](https://user-images.githubusercontent.com/60618802/125258063-9ea27080-e31b-11eb-9227-f14d1f2a49a6.png)
+![Squad-logo-3](https://user-images.githubusercontent.com/60618802/125258081-a235f780-e31b-11eb-9752-37220ef88d8b.png)
+
 
 Homepage
 ![image](https://user-images.githubusercontent.com/60618802/125196983-8417bb00-e279-11eb-890e-0cdcc20b7aaf.png)
