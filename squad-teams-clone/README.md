@@ -1,4 +1,4 @@
-# google-meet-clone
+# teams-clone
 
 # SETUP
 Start redis server "redis-server"
